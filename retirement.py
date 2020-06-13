@@ -18,4 +18,4 @@ print()
 
 monthly_payment_from_savings = money_earned / (85 - retire_age) / 12
 
-print(f"You get {formatCurrencyOutput(monthly_payment_from_savings)} each month until you are 85 years.")
+print(f"You get {formatCurrencyOutput(monthly_payment_from_savings)} each month until you are 85 years")
