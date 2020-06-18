@@ -16,4 +16,4 @@ for x in range(years_of_age, retire_age):
     print(f"År {x + 1} = {formatCurrencyOutput(money_earned)}")
 print()
 monthly_payment_from_savings = money_earned / (85 - retire_age) / 12
-print(f"Du kommer att få ut totalt {formatCurrencyOutput(monthly_payments_from_ppm_and_tjp + monthly_payment_from_savings)} varje månad tills du är 85 år...")
+print(f"Du kommer att få ut totalt {formatCurrencyOutput(monthly_payments_from_ppm_and_tjp + monthly_payment_from_savings)} varje månad tills du är 85 år....")
